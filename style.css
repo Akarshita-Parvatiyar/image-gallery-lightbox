@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Open+Sans+Condensed:wght@300&family=Redressed&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-one: "Fascinate", cursive;
+  --font-two: "Open Sans Condensed", sans-serif;
+  --font-three: "Redressed", cursive;
+  --color-one: #7d5a5a;
+  --color-two: #f1d1d1;
+  --color-three: #f3e1e1;
+  --color-four: #faf2f2;
+}
+body {
+  background-color: var(--color-two);
+}
+.item {
+  transition: 0.3s ease-in-out;
+}
+.item:hover {
+  filter: brightness(80%);
+}
